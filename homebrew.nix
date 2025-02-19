@@ -7,6 +7,8 @@
       cleanup = "zap";
     };
     brews = [
+      "go"
+      "hugo"
       "nmap"
       "zeromq"
       "libmagic"

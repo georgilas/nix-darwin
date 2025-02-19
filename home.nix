@@ -70,7 +70,6 @@
     eza
     glow
     gnuplot
-    go
     hyperfine
     imagemagick
     pandoc
