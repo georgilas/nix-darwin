@@ -61,7 +61,7 @@
       system.stateVersion = 4;
 
       # Enable Touch ID for `sudo`
-      security.pam.enableSudoTouchIdAuth = true;
+      security.pam.services.sudo_local.touchIdAuth = true;
 
       # The platform the configuration will be used on.
       nixpkgs.hostPlatform = "aarch64-darwin";
