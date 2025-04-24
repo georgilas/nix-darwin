@@ -20,10 +20,11 @@
   # install nix-index and manix for package search
   home.packages = with pkgs; [
     # nixpkgs-fmt
+    typst
     nh
     fastfetch
     bintools
-    emacs-nox
+    # emacs-nox
     gnucobol
     nushell
     sc-im
